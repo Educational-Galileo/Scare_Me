@@ -6,7 +6,7 @@
    Romana Flores
    Oliver Chen
    Dustin Bryers
-   10/27/2014. 
+   10/27/2014 original. 
  
   Objective: Blink led based on touch sensor 
 
@@ -15,6 +15,16 @@
  LCD prints: "Stop scaring me", "I am not scared"
  
  Includes Adrunoid code written by Mason 2012 http://profmason.com/?p=2243
+ 
+ Requires Grove RGB Backlight LED library, which was verified with forked version: https://github.com/Educational-Galileo/Grove_LCD_RGB_Backlight
+ 
+ SEEEDstudio Grove IoT ver 2 kit RGB_Backlight LED - plugged into I2C below D7
+ SEEEDstudio Grove IoT ver 2 kit Sound Sensor - plugged into A0
+ SEEEDstudio Grove IoT ver 2 kit Light Sensor - plugged into A1
+ SEEEDstudio Grove IoT ver 2 kit Button - plugged into A2
+ SEEEDstudio Grove IoT ver 2 kit Touch Senso - plugged into A3
+ 
+ Sound sensor and ambiant light check added by OWC 3/31/2015
  */
 
 #include <Wire.h>   //does I2C
